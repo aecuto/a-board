@@ -32,11 +32,11 @@ export default function RootLayout({
       >
         <Navbar />
         <div className="flex flex-row">
-          <div className="basis-1/4">
+          <div className="basis-1/6">
             <Sidebar />
           </div>
-          <div className="basis-2/4">{children}</div>
-          <div className="basis-1/4"></div>
+          <div className="basis-4/6">{children}</div>
+          <div className="basis-1/6"></div>
         </div>
       </body>
     </html>
